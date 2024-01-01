@@ -1,13 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Player</title>
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="shortcut icon" href="Images/favicon.0f31d2ea.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div id="container">
+        <div id="left">
+            <div id="left_top">
+                <div id="logo">
+                    <img src="Images/spotify.svg" alt="spotify">
+                </div>
+                <h2>
+                    <img src="Images/home.svg" alt="home"> Home
+                </h2>
+                <h2>
+                    <img src="Images/search.svg" alt="search"> Search
+                </h2>
+            </div>
+            <div id="left_bottom">
+                <div>
+                    <h2>
+                        <div><img src="Images/library.svg" alt="library"> All Songs</div>
+                        <span>+</span>
+                    </h2>
+                    <div id="songsContainer">
+                        <div class="songs">
+                            <div class="musicIconContainer">
+                                <img class="musicIcon" src="Images/music.svg" alt="music">
+                            </div>
+                            <div class="songInfo">
+                                <p class="songName">Let me down slowly</p>
+                                <p class="songArtist">Pravesh</p>
+                            </div>
+                            <div class="playNow">Play Now</div>
+                            <div class="playPauseContainer">
+                                <img class="playPauseImgs" src="Images/play.svg" alt="play">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="left_bottom_footer">
+                    <div>
+                        <p>Let's find some podcasts to follow</p>
+                        <p>We'll keep you updated on new episodes</p>
+                    </div>
+                    <div>
+                        <p>
+                            <a href="#">Legal</a>
+                            <a href="#">Privacy Center</a>
+                            <a href="#">Privacy Policy</a>
+                        </p>
+                        <p>
+                            <a href="#">Cookies</a>
+                            <a href="#">About Ads</a>
+                            <a href="#">Accessibility</a>
+                        </p>
+                        <p>
+                            <a href="#">Cookies</a>
+                        </p>
+                    </div>
+                    <button>
+                        <img src="Images/language.svg" alt="languages"> English
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <div id="right_header">
+                <div>
+                    <button>
+                        <i class="ri-arrow-left-s-line"></i>
+                    </button>
+                    <button>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </button>
+                </div>
+                <div>
+                    <button>Sign up</button>
+                    <button>Log in</button>
+                </div>
+            </div>
+            <div id="playlistContainer">
+                <div id="playlistHeader">
+                    <h2>All Playlists</h2>
+                    <button>Show all</button>
+                </div>
+                <div id="Allplaylists">
+                    <div class="playlist">
+                        <div>
+                            <img src="Images/playlist1.jpeg" alt="image">
+                        </div>
+                        <h3>Lofi beats</h3>
+                        <p>Chill beats, lofi vibes, new tracks every week of different genre</p>
+                        <span><i class="ri-play-fill"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div id="right_footer">
+                <div id="right_footer_top">
+                    <div id="right_footer_top_left">
+                        <div>
+                            <h2>Company</h2>
+                            <a href="#">About</a>
+                            <a href="#">Jobs</a>
+                            <a href="#">For the Record</a>
+                        </div>
+                        <div>
+                            <h2>Communities</h2>
+                            <a href="#">For Artists</a>
+                            <a href="#">Developers</a>
+                            <a href="#">Advertising</a>
+                            <a href="#">Investors</a>
+                            <a href="#">Vendors</a>
+                        </div>
+                        <div>
+                            <h2>Useful Links</h2>
+                            <a href="#">Support</a>
+                            <a href="#">Free Mobile App</a>
+                        </div>
+                    </div>
+                    <div id="right_footer_top_right">
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                        <a href="#"><i class="ri-twitter-x-line"></i></a>
+                        <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    </div>
+                </div>
+                <div id="right_footer_bottom">
+                    <h2>©️ 2023 Spotify AB</h2>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
